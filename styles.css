@@ -437,7 +437,7 @@
 
 .lastdiv {
     height: 900px;
-    width: 100%;
+    width: 200%;
     background-color: cyan;
     color: black;
     gap: 10px;
@@ -470,6 +470,6 @@
     gap: 10px;
     margin-inline-start: 0cap; 
     margin-top: 300px;
-    margin: left 1px;x;
+    margin: left 1px;
 justify-content: flex-start;
 }
