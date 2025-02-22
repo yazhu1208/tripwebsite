@@ -166,11 +166,15 @@
 
 .imagefavtravel {
     display: flex;
-
+justify-content:space-between;
     flex-wrap: nowrap;
     
 
 }
+.imagefavtravel img{
+    width:100px;
+    height:200px;
+}    
 
 .imagefavtravel img:hover {
 
