@@ -231,7 +231,7 @@ justify-content:space-between;
 }
 
 .lastdiv {
-    height: 1000px;
+    height: 900px;
     width: 100%;
     background-color: cyan;
     color: black;
@@ -428,7 +428,7 @@ justify-content:space-between;
 
 .lastdiv {
     height: 900px;
-    width: 200%;
+    width: 570px;
     background-color: cyan;
     color: black;
     gap: 10px;
