@@ -240,7 +240,7 @@
 }
 
 .lastdiv {
-    height: 350px;
+    height: 1000px;
     width: 100%;
     background-color: cyan;
     color: black;
@@ -267,7 +267,7 @@
 .logo {
     display: flex;
     gap: 30px;
-    margin-top: 1000px;
+    margin-top: 300px;
 
 }
 
