@@ -231,7 +231,7 @@ justify-content:space-between;
 }
 
 .lastdiv {
-    height: 900px;
+    height: 800px;
     width: 100%;
     background-color: cyan;
     color: black;
@@ -363,7 +363,7 @@ justify-content:space-between;
     .logo p {
         font-size: 16px;
     }
-}
+
 
 .imagefavtravel {
     flex-wrap: wrap;
@@ -428,7 +428,7 @@ justify-content:space-between;
 
 .lastdiv {
     height: 900px;
-    width: 570px;
+    width: 300%;
     background-color: cyan;
     color: black;
     gap: 10px;
