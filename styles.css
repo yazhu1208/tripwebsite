@@ -1,0 +1,475 @@
+.topic {
+    display: flex;
+    justify-content: space-around;
+}
+
+.topichead {
+    display: flex;
+    gap: 10px;
+}
+
+.topichead img {
+    width: 50px;
+    background-color: green;
+    border-radius: 30px;
+}
+
+.topiccenter {
+    display: flex;
+    gap: 30px;
+}
+
+.topicend img {
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.topicend {
+    display: flex;
+    gap: 10px;
+
+}
+
+.signin {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 2px;
+    width: 70px;
+    height: 50px;
+
+
+}
+
+.where {
+    color: black;
+
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.linehead {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    font-weight: 1000;
+    font-style: bold;
+
+}
+
+.search {
+    padding: 10px;
+    border: solid black 1px;
+    margin-top: 10px;
+    border-radius: 60px;
+    width: 60%;
+    margin-left: 300px;
+    height: 70px;
+    display: flex;
+    gap: 10px;
+    height: 30px;
+    position: relative;
+
+}
+
+.search input {
+    border: none;
+    width: 100%;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.searchbox {
+
+
+    background-color: blueviolet;
+    color: white;
+    border-radius: 40px;
+    padding: 5px;
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 820px;
+}
+
+.centerimage {
+
+    width: 300%;
+    max-width: 1000px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 290px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: slideShow 9s infinite;
+}
+
+.slide:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.slide:nth-child(2) {
+    animation-delay: 3s;
+}
+
+.slide:nth-child(3) {
+    animation-delay: 6s;
+}
+
+@keyframes slideShow {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    33.33% {
+        opacity: 1;
+    }
+
+    43.33% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.first content {
+    color: blue;
+    font-size: xx-large;
+}
+
+.inspire p {
+    font-size: larger;
+}
+
+.imagefavtravel {
+    display: flex;
+
+    flex-wrap: nowrap;
+    
+
+}
+
+.imagefavtravel img:hover {
+
+    width: auto;
+    /* Default size */
+    height: 250px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.travelplaces img:hover {
+
+    width: auto;
+    /* Default size */
+    height: 150px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.travelplaces {
+    
+        display: flex; /* Align images in one row */
+        gap: 20px; /* Space between images */
+        justify-content: flex-start; /* Align items to the left */
+    }
+    
+    .travelplaces img {
+        width: 300px; /* Adjust image width */
+        height: auto; /* Maintain aspect ratio */
+    }
+    
+    
+
+
+
+
+
+.worldtravel {
+    height: 200px;
+    width: 100%;
+    background-color: burlywood;
+    border-radius: 30px;
+    display: flex;
+    gap: 60px;
+
+    background-color: rgba(223, 89, 89, 0.5);
+    /* 50% transparent background */
+
+
+}
+
+.worldtravel img {
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.worldtravel h1 {
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.worldtravel h3 {
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.lastdiv {
+    height: 350px;
+    width: 100%;
+    background-color: cyan;
+    color: black;
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+
+}
+
+.trip {
+    display: flex;
+    gap: 10px;
+    margin: 150px;
+}
+
+.trip img {
+    width: 40px;
+    height: 80px;
+    background-color: hsl(204, 70%, 53%);
+    border-radius: 30px;
+}
+
+.logo {
+    display: flex;
+    gap: 30px;
+    margin-top: 1000px;
+
+}
+
+@media screen and (max-width:600px) {
+
+    .topic {
+        gap: 5px;
+    }
+
+    .topichead {
+        display: flex;
+        gap: 2px;
+    }
+
+    .topichead img {
+        width: 50px;
+        background-color: green;
+        border-radius: 30px;
+    }
+
+    .topiccenter {
+        display: flex;
+        gap: 2px;
+    }
+
+    .topicend img {
+        width: 30px;
+        height: 30px;
+
+
+    }
+
+    .topicend {
+        display: flex;
+        gap: 2px;
+
+    }
+
+    .signin {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        padding: 2px;
+        width: 70px;
+        height: 50px;
+
+
+    }
+
+
+
+
+    .where {
+        font-size: 18px;
+    }
+
+    .linehead {
+        flex-wrap: wrap;
+        font-size: 12px;
+        gap: 10px;
+    }
+
+    .wholesearch {
+        margin-left: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center; /* Center vertically */
+    }
+    .search {
+        margin-left: 20px; /* Adjust left position */
+    }
+    input {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+    
+
+    .centerimage {
+        width: 50%;
+        /* Adjust the width as needed */
+        height: 200px;
+        /* Adjust height */
+        position: relative;
+        overflow: hidden;
+        margin-left:5px;
+        /* Aligns to the left */
+        border-radius: 10px;
+        justify-content: left;
+    }
+
+
+
+
+
+    .lastdiv {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo p {
+        font-size: 16px;
+    }
+}
+
+.imagefavtravel {
+    flex-wrap: wrap;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.imagefavtravel img:hover {
+
+    width: auto;
+    /* Default size */
+    height: 150px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.travelplaces img:hover {
+
+    width: auto;
+    /* Default size */
+    height: 150px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.travelplaces {
+    margin-left: 10px;
+    flex-wrap: wrap;
+    width: 200px;
+
+}
+
+.worldtravel {
+    height: 200px;
+    width: 100%;
+    background-color: burlywood;
+    border-radius: 30px;
+    display: flex;
+    gap: 20px;
+
+    background-color: rgba(223, 89, 89, 0.5);
+    /* 50% transparent background */
+
+
+}
+
+.worldtravel img {
+    margin-top: 12px;
+    margin-left: 12px;
+    width: 100px;
+    height: 100px;
+    gap: 2px;
+}
+
+.worldtravel h1 {
+    margin-top: 30px;
+    gap: 2px;
+
+}
+
+.worldtravel h3 {
+    margin-top: 45px;
+}
+
+.lastdiv {
+    height: 700px;
+    width: 100%;
+    background-color: cyan;
+    color: black;
+    gap: 10px;
+    font-size: small;
+}
+
+.topicslastdiv {
+    
+    
+    padding: 10px;
+    margin-top:30;
+    gap: 20px;
+}
+
+.trip {
+
+    gap: 10px;
+    margin: 50px;
+}
+
+.trip img {
+    width: 40px;
+    height: 80px;
+    background-color: hsl(204, 70%, 53%);
+    border-radius: 30px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    margin-inline-start: 0cap; 
+    margin-top: 300px;
+    margin: left 1px;x;
+justify-content: flex-start;
+}
