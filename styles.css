@@ -105,6 +105,7 @@
     height: 100%;
     opacity: 0;
     animation: slideShow 9s infinite;
+    margin:0px;
 }
 
 .slide:nth-child(1) {
