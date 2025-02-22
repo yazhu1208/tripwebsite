@@ -85,19 +85,6 @@
     outline: none;
 }
 
-.searchbox {
-
-
-    background-color: blueviolet;
-    color: white;
-    border-radius: 40px;
-    padding: 5px;
-    width: 70px;
-    height: 20px;
-    position: absolute;
-    top: 0px;
-    left: 820px;
-}
 
 .centerimage {
 
